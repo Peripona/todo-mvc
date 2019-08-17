@@ -1,5 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TODO-MVC 
+This project is about a ToDo app in react, redux and typescript.
 
+1. Easily create new tasks and add them to the list
+2. Update exisiting item in the todo-list
+3. Create Day wise list
+4. Move non completed tasks to next day list automatically
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 ## Available Scripts
 
 In the project directory, you can run:
