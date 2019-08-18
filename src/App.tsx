@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import CssBaseLine from '@material-ui/core/CssBaseline';
 
 const App: React.FC = () => {
   return (
     <div className="App">
+      <CssBaseLine />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
