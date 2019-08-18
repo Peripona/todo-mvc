@@ -1,12 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import CssBaseLine from '@material-ui/core/CssBaseline';
+import Dummy from './components/Dummy';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <CssBaseLine />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,6 +19,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <Dummy />
       </header>
     </div>
   );
